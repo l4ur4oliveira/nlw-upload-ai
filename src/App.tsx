@@ -1,3 +1,9 @@
+import { Button } from "./components/ui/button";
+
 export function App() {
-    return <h1>Hello</h1>;
+    return (
+        <>
+            <Button>Hellow</Button>
+        </>
+    );
 }
