@@ -23,3 +23,15 @@ Content-Type: application/json
 {
   "prompt": "aula, avaliação, São Leo" 
 }
+
+###
+
+# @name generate-completion
+POST http://localhost:3333/ai/completion
+Content-Type: application/json
+
+{
+  "videoId": "b5ca1c34-12a5-4cbe-b423-253ae468f738",
+  "temperature": 0.5,
+  "template": "Gere um resumo suscinto da transcrição informada a seguir: '''{transcription}'''"
+}
