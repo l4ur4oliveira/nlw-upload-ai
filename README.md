@@ -3,6 +3,7 @@
 ## 🔧 Stack and cool things
 
 -   React/TypeScript
+-   Tailwind/shadcn.ui
 -   Prisma/SQLite
 -   OpenAI Whisper e ChatGPT
 -   ffmpeg e WebAssembly
